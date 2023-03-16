@@ -8,13 +8,14 @@ import '../cubit/counter_cubit.dart';
 import '../cubit/counter_state.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+   HomeScreen({super.key});
+
 
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<CounterCubit, CounterStates>(
       listener: (context, state) {
-        // TODO: implement listener
+        
       },
       builder: (context, state) {
         return Scaffold(
